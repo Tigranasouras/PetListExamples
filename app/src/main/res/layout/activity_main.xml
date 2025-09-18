@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/petcare"
@@ -19,11 +19,12 @@
         app:layout_constraintVertical_bias="0.043" />
 
     <ListView
+        android:id="@+id/ListViewWidget"
         android:layout_width="409dp"
         android:layout_height="680dp"
         android:layout_marginTop="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/Title"
         tools:layout_editor_absoluteX="1dp" />
 
 

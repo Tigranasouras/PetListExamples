@@ -1,5 +1,7 @@
 package Model;
 
+import androidx.annotation.NonNull;
+
 public class Pet {
     String name;
     String breed;
@@ -34,5 +36,11 @@ public class Pet {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+
+    @Override
+    public String toString() {
+        return name + "(" + breed + "): " + age;
     }
 }
